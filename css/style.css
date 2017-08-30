@@ -12,6 +12,7 @@ button.navbar-toggler{
 }*/
 body{
 	color: black;
+	height: 100%;
 }
 a.navbar-brand{
 	padding-top: 10px;
@@ -53,4 +54,7 @@ div.project-brief{
 }
 a {
 	color: black;
+}
+footer{
+	height: 100%;
 }
