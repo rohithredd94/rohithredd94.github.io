@@ -1,0 +1,44 @@
+/*a.navbar-brand{
+	position: relative; 
+	right: 10%; 
+	top: 3%; 
+	padding-top:10px;
+}
+
+button.navbar-toggler{
+	position: fixed; 
+	left: 80%; 
+	top: 3%;
+}*/
+
+a.navbar-brand{
+	padding-top: 10px;
+	margin: 0;
+}
+
+div.head{
+	height: 415px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+div.welcome{
+	margin: auto; 
+	height: 100%; 
+	display: table; 
+	text-align: center; 
+	vertical-align: middle;
+}
+
+div.welcome-content{
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+div.image{
+	text-align: center;
+}
+
+div#projects{
+	padding-top: 5%;
+}
