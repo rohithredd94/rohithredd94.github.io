@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Database Engine</title>
+    <title>Chandy Lamport Snapshot Protocol</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 height=device-height"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
@@ -110,8 +110,8 @@
         </div>
     </nav>
     <div class="container project-detail">
-        <h2><strong>Databases & Java Programming | </strong>Database-Engine Implementation</h2>
-        <p>The project’s goal was to implement a rudimentary database engine which is loosely based on a hybrid between MySQL and SQLite. The database engine only supports actions on a single table at a time. The engine employs a file-per-table approach similar to InnoDB engine. The engine uses a page size of 512 bytes and supports basic SQL commands such as CREATE, INSERT, DELETE, UPDATE, DROP and SELECT. The engine is developed by storing and reading hex bytes in the table files. The engine uses page header hex bytes as a key to distinguish between a B-Tree interior cell or leaf cell. The entire project is developed in Java. </p>
+        <h2><strong>Advanced Operating Systems & Java Programming | </strong>Implementation of Chandy Lamport Snapshot Protocol</h2>
+        <p>This project was implemented as part of the Advanced Operating Systems course. The goal of this project is to implement Chandy Lamport Protocol which is a protocol used to take consistent global snapshots of a multi process network. Every node in the system randomly sends a message to some other node in the network and our algorithm should only take meaningful snapshots of the system which can later be used for recovery of the system in case of a failure. The project is developed in java and tested on a 10 node network. </p>
     </div>
     <h4>This page is under construction</h4>
     <footer class="page-footer center-on-small-only stylish-color">
@@ -124,7 +124,7 @@
                 <li><a class="btn-floating btn-sm btn-ins" href="https://www.instagram.com/rohith94/"><i class="fa fa-instagram"> </i></a></li>
             </ul>
         </div>
-    </footer>   
+    </footer>
     <script type="text/javascript" src="./js/compiled.min.js"></script>
 </body>
 </html>
